@@ -6,11 +6,12 @@ ruby '2.6.3'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.3'
 gem 'bcrypt',   '3.1.12'
+
 gem 'bootstrap-sass', '3.3.7'
 # Use sqlite3 as the database for Active Record
 # gem 'sqlite3', '~> 1.4'
 # Use Puma as the app server
-gem 'puma', '~> 3.11'
+gem 'puma', '~> 3.12.1'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5'
 gem 'uglifier',     '3.2.0'
@@ -31,7 +32,7 @@ gem 'jbuilder', '~> 2.7'
 # gem 'image_processing', '~> 1.2'
 
 # Reduces boot times through caching; required in config/boot.rb
-gem 'bootsnap', '>= 1.4.2', require: false
+gem 'bootsnap', '>= 1.1.0', require: false
 
 group :development, :test do
   gem 'sqlite3', '1.3.13'
